@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradise Resort - Testimonials</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./../css/testimonials.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">Paradise Resort</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about_us.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="mission_vision.html">Mission & Vision</a>
+                <a href="gallery_portfolio.html">Gallery</a>
+                <a href="testimonials.html" class="active">Testimonials</a>
+                <a href="contact.html">Contact</a>
+                <a href="news_blog.html">Blog</a>
+                <a href="faqs.html">FAQs</a>
+                <a href="profile.html">Profile</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Testimonials Hero Section -->
+    <section class="hero testimonials-hero">
+        <div class="hero-content">
+            <h1>Guest Experiences</h1>
+            <p>Discover what our valued guests say about their stay</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Main Content -->
+    <section class="testimonials-main" id="testimonials">
+        <div class="testimonial-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="family">Family</button>
+            <button class="filter-btn" data-filter="couples">Couples</button>
+            <button class="filter-btn" data-filter="business">Business</button>
+        </div>
+
+        <div class="testimonial-grid">
+            <!-- Family Testimonials -->
+            <div class="testimonial-card" data-category="family">
+                <div class="testimonial-header">
+                    <div class="guest-avatar">
+                        <img src="./../images/family-photo.jpg" alt="Guest Avatar">
+                    </div>
+                    <div class="guest-info">
+                        <h4>The Johnson Family</h4>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>"Perfect family vacation! The kids' club was amazing and our suite had everything we needed. We'll definitely be back next summer!"</p>
+                <div class="stay-details">
+                    <span>Family Suite • April 2023</span>
+                </div>
+            </div>
+
+            <!-- Couples Testimonials -->
+            <div class="testimonial-card" data-category="couples">
+                <div class="testimonial-header">
+                    <div class="guest-avatar">
+                        <img src="./../images/couple-photo.jpg" alt="Guest Avatar">
+                    </div>
+                    <div class="guest-info">
+                        <h4>Sarah & Michael</h4>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>"The perfect romantic getaway! Private beach dinners and couples massage package made our anniversary unforgettable."</p>
+                <div class="stay-details">
+                    <span>Honeymoon Villa • February 2023</span>
+                </div>
+            </div>
+
+            <!-- Business Testimonials -->
+            <div class="testimonial-card" data-category="business">
+                <div class="testimonial-header">
+                    <div class="guest-avatar">
+                        <img src="./../images/profile-photo.jpg" alt="Guest Avatar">
+                    </div>
+                    <div class="guest-info">
+                        <h4>James Thompson</h4>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>"Outstanding conference facilities combined with luxury accommodations. Our team retreat was both productive and relaxing."</p>
+                <div class="stay-details">
+                    <span>Executive Suite • March 2023</span>
+                </div>
+            </div>
+
+            <!-- Add more testimonials following the same structure -->
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Paradise Resort. All rights reserved.</p>
+    </footer>
+
+    <script src="./../javascript/testimonials.js">
+    </script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradise Resort - Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./../css/news_blog.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">Paradise Resort</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about_us.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="mission_vision.html">Mission & Vision</a>
+                <a href="gallery_portfolio.html">Gallery</a>
+                <a href="testimonials.html">Testimonials</a>
+                <a href="contact.html">Contact</a>
+                <a href="news_blog.html" class="active">Blog</a>
+                <a href="faqs.html">FAQs</a>
+                <a href="profile.html">Profile</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Blog Hero -->
+    <section class="hero blog-hero">
+        <div class="hero-content">
+            <h1>Paradise Journal</h1>
+            <p>Discover the latest updates and travel insights</p>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog-posts">
+        <div class="blog-container">
+            <article class="post-card" data-index="0">
+                <div class="post-image">
+                    <img src="./../images/sustainable-practices.jpg" alt="Sustainable Practices">
+                </div>
+                <div class="post-content">
+                    <span class="post-date">June 15, 2023 | Sustainability</span>
+                    <h2>New Eco-Friendly Initiatives Launch</h2>
+                    <p class="post-excerpt">Discover how we're reducing our carbon footprint with innovative solar energy solutions and zero-waste policies...</p>
+                    <a href="#" class="cta-button read-more">Read More</a>
+                </div>
+            </article>
+
+            <article class="post-card" data-index="1" style="display: none;">
+                <div class="post-image">
+                    <img src="./../images/chef.jpg" alt="Culinary Experience">
+                </div>
+                <div class="post-content">
+                    <span class="post-date">June 10, 2023 | Culinary</span>
+                    <h2>Meet Our New Executive Chef</h2>
+                    <p class="post-excerpt">World-renowned chef Marco Bellini joins our team to create an exciting new fusion menu blending local flavors...</p>
+                    <a href="#" class="cta-button read-more">Read More</a>
+                </div>
+            </article>
+
+            <article class="post-card" data-index="2" style="display: none;">
+                <div class="post-image">
+                    <img src="./../images/spa.jpg" alt="Spa Treatments">
+                </div>
+                <div class="post-content">
+                    <span class="post-date">June 1, 2023 | Wellness</span>
+                    <h2>2023 Spa of the Year Award</h2>
+                    <p class="post-excerpt">We're proud to announce our luxury spa has been recognized by World Spa Awards for exceptional service...</p>
+                    <a href="#" class="cta-button read-more">Read More</a>
+                </div>
+            </article>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <a href="#" class="page-number active" data-index="0">1</a>
+                <a href="#" class="page-number" data-index="1">2</a>
+                <a href="#" class="page-number" data-index="2">3</a>
+                <a href="#" class="next-page" data-index="1">Next <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Paradise Resort. All rights reserved.</p>
+    </footer>
+
+    <script src="./../javascript/news_blog.js">
+    </script>
+</body>
+</html>
